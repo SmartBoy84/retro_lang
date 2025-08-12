@@ -33,7 +33,7 @@ n = n - 1
 goto break n             # branch to exit if expression (n) is 0
 goto loop_start          # otherwise go back to loop_start
 
-reg = a ;break           # display final result
+reg = a   ;break         # display final result
 goto exit ;exit          # loop forever
 ```
 Things not shown above:
