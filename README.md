@@ -1,4 +1,6 @@
 # Retro-lang
+`./retro-lang {program.rasm} -o {output.mem} > program.asm`
+
 Very simplistic toy language for a very simplistic computer architecture (built in [Retro](https://roblab.org/retro/)) (`UWA-ELEC3020-Lab2`).  
 
 3 representations:
@@ -8,7 +10,7 @@ Very simplistic toy language for a very simplistic computer architecture (built 
 
 All 3 are technically independent from each other.   
 
-Have support for sub-routines
+Have support for sub-routines`
 - E.g., will need a sub-routine to negate a number due to not NOT facilities
 
 ## Example program - Fibonnaci
@@ -17,9 +19,9 @@ var a = 1
 var b = 1
 var c
 
-var n = 13             # count to 13th fibonnaci number (8 bit storage - max)
+var n = 13              # count to 13th fibonnaci number (8 bit storage - max)
 
-reg = a ;loop_start    # show current number
+reg = a ;loop_start     # show current number
 
 # compute next fibonacci number
 c = a
