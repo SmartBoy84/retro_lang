@@ -1,0 +1,11 @@
+LDC 00 ; acc <- v
+LDM 01 ; acc <- mem[a]
+
+ADC 02 ; acc <- acc + v
+ADM 03 ; acc <- acc + mem[a]
+
+STR 04 ; mem[a] <- acc
+CLR 05 ; acc <- 0
+
+BRA 06 ; pc <- a
+BRQ 07 ; if acc = 0 then pc <- a
